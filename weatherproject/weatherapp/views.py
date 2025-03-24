@@ -7,12 +7,12 @@ def home(request):
     city = request.POST.get('city', 'Indore')
 
     # OpenWeatherMap API Key (Replace with your actual key)
-    WEATHER_API_KEY = "837b33945401c39cb561c7d0828586cc"
+    WEATHER_API_KEY = ""
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={WEATHER_API_KEY}&units=metric'
 
     # Google Custom Search API Key (Replace with your actual key)
-    GOOGLE_API_KEY = "AIzaSyCq8YhlPtWlZNqYYEmeHTXDnJDV05KCwyQ"
-    SEARCH_ENGINE_ID = "342c994e4e4bf4046"
+    GOOGLE_API_KEY = ""
+    SEARCH_ENGINE_ID = ""
     
     query = f"{city} 1920x1080"
     start = 1
