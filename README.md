@@ -24,7 +24,7 @@ A Django-based weather application that displays real-time weather data along wi
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/WeatherVision-Django.git
+   git clone https://github.com/Omkeswani27/WeatherVision-Django.git
    cd WeatherVision-Django
 
 2. Install dependencies:  
